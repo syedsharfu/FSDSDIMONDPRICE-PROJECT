@@ -5,7 +5,7 @@ on:
       - master
 
 
-Jobs:
+    Jobs:
     build-and-push-ecr-image: 
     name: Build Image
     runs-on: ubuntu-latest
