@@ -3,10 +3,10 @@ on:
   push:
     branches:
       - master
-
+  workflow_dispatch:
 
 jobs:
-  Build and push image to ECR: 
+  build-and-push-ecr-image: 
     name: Build Image
     runs-on: ubuntu-latest
     steps:
