@@ -10,7 +10,7 @@
     name: Build Image
     runs-on: ubuntu-latest
     steps:
-    name: check out code
+        name: check out code
     - uses: actions/checkout@v2
       name: Install Utilities
       run: 
